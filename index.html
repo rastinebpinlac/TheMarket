@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>RPNLC</title>
+
+    <!-- Website Icon Link -->
+    <link rel="icon" href="./images/icon.png" type="image/x-icon" />
+
+    <!-- Bootstrap CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome Link -->
+    <script
+      src="https://kit.fontawesome.com/5f3cb8cdfd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Main CSS Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <a href="/" class="navbar-brand">RPNLC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+          <!-- <i class="fas fa-bars"></i> -->
+        </button>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">What I Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experiences</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="container about">
+      <div class="container mt-5 d-flex flex-lg-row flex-md-row flex-sm-row">
+        <img src="./images/hero.png" alt="" class="hero-img m-3" />
+        <div class="hero-content m-2">
+          <h1 class="hero-title font-weight-bold mb-4">
+            Hey there! <span>I'm Rastine Pinlac</span>
+          </h1>
+          <p class="hero-details mb-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            error dicta itaque porro debitis perferendis, assumenda delectus sit
+            nulla labore.
+          </p>
+          <button type="button" class="btn px-5">Get CV</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="container education">
+      <h1 class="education-title text-center font-weight-bold">Education</h1>
+      <div
+        class="container school-cards d-flex flex-sm-column flex-md-column flex-lg-row align-items-center"
+      >
+        <!-- First Education -->
+        <div class="card" style="width: 18rem; height: 250px;">
+          <!-- <img class="card-img-top" src="..." alt="Card image cap" /> -->
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">
+              Sylvandale Middle School
+            </h5>
+            <p class="card-text text-justify">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              class="btn btn-primary d-flex justify-content-center"
+              type="button"
+              data-toggle="modal"
+              data-target="#firstModal"
+              >See More</a
+            >
+          </div>
+        </div>
+        <!-- Second Education -->
+        <div class="card" style="width: 18rem; height: 250px;">
+          <!-- <img class="card-img-top" src="..." alt="Card image cap" /> -->
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">
+              San Beda College Alabang
+            </h5>
+            <p class="card-text text-justify">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              class="btn btn-primary d-flex justify-content-center"
+              type="button"
+              data-toggle="modal"
+              data-target="#secondModal"
+              >See More</a
+            >
+          </div>
+        </div>
+        <!-- Third Education -->
+        <div class="card" style="width: 18rem; height: 250px;">
+          <!-- <img class="card-img-top" src="..." alt="Card image cap" /> -->
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">
+              De La Salle <br />University
+            </h5>
+            <p class="card-text text-justify">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              class="btn btn-primary d-flex justify-content-center"
+              type="button"
+              data-toggle="modal"
+              data-target="#thirdModal"
+              >See More</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- First Education Modal -->
+      <div
+        class="modal fade"
+        id="firstModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="firstModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="firstModalTitle">
+                Sylvandale Middle School
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Secpnd Education Modal -->
+      <div
+        class="modal fade"
+        id="secondModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="secondModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="secondModalTitle">
+                San Beda College Alabang
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Education Modal -->
+      <div
+        class="modal fade"
+        id="thirdModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="thirdModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="thirdModalTitle">
+                De La Salle University
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What I Know Section -->
+    <section class="container wik"></section>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

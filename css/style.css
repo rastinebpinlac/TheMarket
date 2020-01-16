@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+
+@font-face {
+  font-family: "Bukhari";
+  src: url("/fonts/BukhariScript-Regular.otf");
+}
+
+body {
+  font-family: Poppins;
+}
+
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* .school-cards {
+  display: flex;
+  justify-content: center;
+} */
+
+.about {
+  margin-top: 10em;
+}
+
+.education {
+  margin-top: 10em;
+}
+
+.school-cards .card {
+  margin: 2em 1em;
+}
