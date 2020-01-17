@@ -43,7 +43,7 @@
         <div class="navbar-collapse collapse" id="navbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Education</a>
@@ -61,30 +61,36 @@
 
     <!-- Hero Section -->
     <section class="container about">
-      <div class="container mt-5 d-flex flex-lg-row flex-md-row flex-sm-row">
+      <div
+        class="container mt-5 d-flex flex-lg-row flex-md-row flex-sm-row justify-content-center hero-container"
+      >
         <img src="./images/hero.png" alt="" class="hero-img m-3" />
-        <div class="hero-content m-2">
-          <h1 class="hero-title font-weight-bold mb-4">
-            Hey there! <span>I'm Rastine Pinlac</span>
+        <div class="hero-content m-2 pl-5">
+          <h1 class="hero-title font-weight-light mb-4">
+            Hey there!
+            <span class="d-block font-weight-bold">I'm Rastine Pinlac</span>
           </h1>
           <p class="hero-details mb-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
             error dicta itaque porro debitis perferendis, assumenda delectus sit
             nulla labore.
           </p>
-          <button type="button" class="btn px-5">Get CV</button>
+          <div class="button-container">
+            <button type="button" class="btn px-5">Get CV</button>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Projects Section -->
     <!-- Education Section -->
     <section class="container education">
       <h1 class="education-title text-center font-weight-bold">Education</h1>
       <div
-        class="container school-cards d-flex flex-sm-column flex-md-column flex-lg-row align-items-center"
+        class=" school-cards d-flex flex-xs-column lex-sm-column flex-md-column flex-lg-row align-items-center justify-content-center"
       >
         <!-- First Education -->
-        <div class="card" style="width: 18rem; height: 250px;">
+        <div class="card " style="width: 18rem; height: 250px;">
           <!-- <img class="card-img-top" src="..." alt="Card image cap" /> -->
           <div class="card-body">
             <h5 class="card-title text-center font-weight-bold">
@@ -147,103 +153,317 @@
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- First Education Modal -->
-      <div
-        class="modal fade"
-        id="firstModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="firstModal"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="firstModalTitle">
-                Sylvandale Middle School
-              </h5>
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
+    <!-- What I Know Section -->
+    <section
+      class="container wik text-center d-flex justify-content-center align-items-center mt-5"
+    >
+      <div class="row w-100">
+        <div class="col-12">
+          <h1 class="font-weight-bold mb-5">What I Know</h1>
+        </div>
+        <div class="row w-100">
+          <div class="col-12">
+            <h2 class="row-title mb-4">Web Development and Design</h2>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/html-5.png"
+              alt="html-5"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">HTML</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/css.png"
+              alt="css"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">CSS</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/js.png"
+              alt="javascript"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Javascript</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/mysql.png"
+              alt="mysql"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">MySQL</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/python.png"
+              alt="python"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Python</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/c.png"
+              alt="c/c++"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">C/C++</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/ai.png"
+              alt="illustrator"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Illustrator</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/photoshop.png"
+              alt="photoshop"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Photoshop</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/java.png"
+              alt="java"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Java</h4>
+          </div>
+          <!-- Web Frameworks Column -->
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/bootstrap.png"
+              alt="bootstrap"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Bootstrap</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/materialize.png"
+              alt="Materialize"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Materialize</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/django.png"
+              alt="django"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Django</h4>
           </div>
         </div>
-      </div>
-
-      <!-- Secpnd Education Modal -->
-      <div
-        class="modal fade"
-        id="secondModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="secondModal"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="secondModalTitle">
-                San Beda College Alabang
-              </h5>
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
+        <div class="row mt-5 w-100">
+          <div class="col-12">
+            <h2 class="row-title mb-4">Network Engineering</h2>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/protect.png"
+              alt="security"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">SECURITY</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/modem.png"
+              alt="routing"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">ROUTING</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/server.png"
+              alt="switching"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">SWITCHING</h4>
           </div>
         </div>
-      </div>
-
-      <!-- Third Education Modal -->
-      <div
-        class="modal fade"
-        id="thirdModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="thirdModal"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="thirdModalTitle">
-                De La Salle University
-              </h5>
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
+        <div class="row mt-5 w-100">
+          <div class="col-lg-12">
+            <h2 class="row-title mb-4">Cloud Computing</h2>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 mb-4 wik-item">
+            <img
+              src="./images/amazon.png"
+              alt="aws"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">AMAZON</h4>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 mb-4 wik-item">
+            <img
+              src="./images/azure.png"
+              alt="azure"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">AZURE</h4>
+          </div>
+        </div>
+        <div class="row mt-5 w-100">
+          <div class="col-12">
+            <h2 class="row-title mb-4">Operating Systems</h2>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/windows.png"
+              alt="windows"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Windows</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/mac.png"
+              alt="macos"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Mac OS</h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 mb-4 wik-item">
+            <img
+              src="./images/ubuntu.png"
+              alt="ubuntu"
+              height="100px"
+              class="wik-img"
+            />
+            <h4 class="wik-title m-2">Ubuntu</h4>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- What I Know Section -->
-    <section class="container wik"></section>
+    <!-- Experiences Section -->
+    <!-- Modal Section -->
+    <!-- Education Modals -->
+    <!-- First Education Modal -->
+    <div
+      class="modal fade"
+      id="firstModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="firstModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="firstModalTitle">
+              Sylvandale Middle School
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secpnd Education Modal -->
+    <div
+      class="modal fade"
+      id="secondModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="secondModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="secondModalTitle">
+              San Beda College Alabang
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Education Modal -->
+    <div
+      class="modal fade"
+      id="thirdModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="thirdModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="thirdModalTitle">
+              De La Salle University
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Modal Section -->
     <!-- Bootstrap Scripts -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
