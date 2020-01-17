@@ -6,7 +6,10 @@
 }
 
 body {
+  margin: 0;
+  box-sizing: border-box;
   font-family: Poppins;
+  scroll-behavior: smooth;
 }
 
 .abs-center-x {
@@ -15,23 +18,96 @@ body {
   transform: translateX(-50%);
 }
 
+.navbar-brand {
+  margin-left: 1.5rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #e8a12b;
+}
+
+.navbar-brand:hover {
+  color: #000;
+}
+
 .navbar-toggler {
   border: none;
+}
+
+.navbar-toggler i {
+  color: #e8a12b;
+  font-size: 30px;
+}
+
+.nav-item .nav-link {
+  color: black;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-right: 1em;
+}
+
+.nav-item .nav-link:hover {
+  color: #e8a12b;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 .about {
   margin-top: 10em;
 }
 
+.about h1 {
+  font-size: 2rem;
+}
+
+.about h1 span {
+  font-size: 3rem;
+}
+
+.about button {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about button:hover {
+  background-color: #e8a12b;
+  color: white;
+}
+
 .education {
   margin-top: 10em;
+  margin-bottom: 12em;
+}
+
+.education .btn {
+  background-color: #e8a12b;
+  border: none;
+}
+
+.education .btn:hover {
+  background-color: #111;
 }
 
 .school-cards .card {
   margin: 2em 1em;
 }
 
-@media (max-width: 768px) {
+#accordion .card {
+  border: none;
+}
+
+#accordion .card .card-header {
+  background-color: #e8a12b;
+}
+
+#accordion .card .card-header h5 button {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media (max-width: 760px) {
   .about {
     margin-top: 2rem;
   }
@@ -53,11 +129,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   .hero-content h1 {
     font-size: 1rem;
-    text-align: center;
   }
 
   .hero-content h1 span {
@@ -66,6 +140,10 @@ body {
 
   .hero-content p {
     text-align: justify;
+  }
+
+  .hero-content .button-container {
+    text-align: center;
   }
 
   .school-cards {
@@ -77,5 +155,9 @@ body {
   .school-cards .card {
     width: 14rem;
     margin: 2em auto;
+  }
+
+  #accordion .card .btn {
+    white-space: normal;
   }
 }
